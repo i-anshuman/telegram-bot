@@ -1,2 +1,3 @@
 from api import app
-app.run()
+if __name__ == "main":
+  app.run()
