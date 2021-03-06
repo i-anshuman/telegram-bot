@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from urllib.parse import quote
 import requests
 
-app = Flask(__name__, instance_relative_config=True)
+app = Flask(__name__)
 #app.config.from_object('config')
 app.config.from_envvar('BOT_ID')
 app.config.from_envvar('CHAT_ID')
